@@ -37,7 +37,7 @@ public class SwiftFlutterPusherPlugin: NSObject, FlutterPlugin, PusherDelegate {
             case "unbind":
                 unbind(call, result: result)
             case "trigger":
-                // trigger(call, result: result)
+                trigger(call, result: result)
             default:
                 result(FlutterMethodNotImplemented)
         }
